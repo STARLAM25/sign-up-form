@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>odin-sign-up-form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Background-->
+<header>
+    <!--Header-->
+    <div class="header">
+        <!--logo-->
+        <img src="odin-lined.png"
+        alt="odin logo, featuring a stylized geometric viking face with a beard and helmet"
+        height="128">
+
+        <!--Title-->
+        <h1>Odin</h1>
+        <!--Background source-->
+        <p class="source">
+                photo by 
+
+                <a href="https://unsplash.com/pic.jpg">
+                    Halie West 
+
+                </a>
+                on 
+                <a href="https://unsplash.com/">Unsplash </a>
+        </p>
+
+    </div>
+</header>
+
+<!--Main-->
+<main>
+    <!--Message-->
+    <div class="message">
+
+   <p>
+        This is not a real online service! You know you need something like this in your life
+        to help you realize your deepest dreams.
+        Sign up<em>now</em> toget started.
+   </p> 
+   <p>You <em>Know</em> you want to</p>
+    </div>
+
+    <!--Form-->
+    <form id="form" action="" method="post">
+        <h2>Lets do this!</h2>
+
+        <!--Inputs-->
+        <div class="inputs">
+            <!--left collumn-->
+            <div class="collunm">
+            <!--First name-->
+            <div class="input">
+                <label for="first-name">First name</label>
+                <input
+                    type="text"
+                    name="first-name"
+                    id="first-name"
+                    tabindex="1"
+                    required>
+            </div>
+
+            <!--Email-->
+
+            <div class="input">
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    tabindex="3"
+                    required>
+            </div>
+
+            <!--Password-->
+            <div class="input"
+            <label for="password">Password</label>
+            <input
+                type="password"
+                name="password"
+                id="password"
+                tabindec="2"
+                required>
+        
+                </div>
+        </div>
+
+        <!--Right column-->
+        <div class="column">
+        <!--last name-->
+        <div class="input">
+            <label for="last-name">Last name</label>
+            <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                tabindex="2">
+
+
+        </div>
+        
+        <!--Password confirmation-->
+        <div class="input">
+            <label for="password-confirmation">
+                Confirm password
+            </label>
+
+        <input
+                type="password"
+                name="password-confirmation"
+                id="password-confirmation"
+                tabindex="6"
+                required>
+        </div>
+        </div>
+    </form>
+
+    <!--Form Continuation-->
+<div class="continuation">
+<!--Button-->
+<button type="submit" form="form" tabindex="7">
+      Create account
+</button>
+
+<p>
+    Already have an account?
+    <a href="" tabindex="8">Log</a>
+</p>
+  
+
+
+</div>
+</main>
+
+    <script src="index.js"></script>
+</body>
+</html>
